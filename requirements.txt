@@ -18,7 +18,7 @@ frozenlist==1.4.1
 gevent==24.2.1
 gevent-websocket==0.10.1
 google-ai-generativelanguage==0.6.1
-google-api-core==2.18.0
+google-api-core==2.0.0
 google-api-python-client==2.125.0
 google-auth==2.29.0
 google-auth-httplib2==0.2.0
