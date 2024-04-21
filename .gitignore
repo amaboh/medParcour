@@ -1,0 +1,9 @@
+venv
+.env
+__pycache__
+roughwork.py
+roughworktransciption.py
+token.json
+sockets-rough.py
+token.json
+credentials.json
