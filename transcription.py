@@ -21,7 +21,7 @@ class SpeechClientBridge:
 
     def terminate(self):
         self._ended = True
-
+    
     def add_request(self, buffer):
         self._queue.put(bytes(buffer), block=False)
 

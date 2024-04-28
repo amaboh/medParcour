@@ -3,11 +3,12 @@ venv
 __pycache__
 roughwork.py
 roughworktransciption.py
-<<<<<<< HEAD
 token.json
 sockets-rough.py
 token.json
 credentials.json
-=======
 sockets-rough.py
->>>>>>> 6038bbbb77bdcc91bb15365c6512af1a4077c8be
+
+*ts
+cred.py
+gem_test.py
