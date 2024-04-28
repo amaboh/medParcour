@@ -1,0 +1,7 @@
+Flask
+sqlalchemy
+flask-jwt-extended 
+werkzeug
+flask_sqlalchemy=3.1.1 
+pgvector=0.2.5
+psycopg2
