@@ -1,14 +1,14 @@
-from app.models import db, User, Doctor
+from app.models import db, User, Doctor, UserRecords
 from werkzeug.security import generate_password_hash, check_password_hash
 
 class AuthService:
-    def register_user(self, name, email, password, phone, age, address, date_of_birth, person_of_contact):
+    def register_user(self, name, email, password, phone):
         hashed_password = generate_password_hash(password)
-        user = User(name=name, email=email, password=hashed_password, phone=phone, age=age,
-                    address=address, date_of_birth=date_of_birth, person_of_contact=person_of_contact)
+        user = User(name=name, email=email, password=hashed_password, phone=phone)
         db.session.add(user)
         db.session.commit()
         return user
+
 
     def register_doctor(self, name, email, password):
         hashed_password = generate_password_hash(password)
@@ -16,6 +16,26 @@ class AuthService:
         db.session.add(doctor)
         db.session.commit()
         return doctor
+    
+    def register_user_records(self, user_id, age, address, date_of_birth, person_of_contact):
+        user_records = UserRecords.query.filter_by(user_id=user_id).first()
+        if user_records:
+            user_records.age = age
+            user_records.address = address
+            user_records.date_of_birth = date_of_birth
+            user_records.person_of_contact = person_of_contact
+        else:
+            user_records = UserRecords(
+                user_id=user_id,
+                age=age,
+                address=address,
+                date_of_birth=date_of_birth,
+                person_of_contact=person_of_contact
+            )
+            db.session.add(user_records)
+        db.session.commit()
+        return user_records
+
 
     def authenticate_user(self, email, password):
         user = User.query.filter_by(email=email).first()

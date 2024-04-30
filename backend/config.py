@@ -8,8 +8,8 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'postgresql://user:password@localhost/postgres'
+    SQLALCHEMY_DATABASE_URI = "postgresql://ama:amabohachu@localhost:5432/postgres"
 
 class ProductionConfig(Config):
-    DEBUG = False
+    DEBUG = True
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')

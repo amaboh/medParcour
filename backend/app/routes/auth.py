@@ -16,27 +16,33 @@ def signup():
     name = data.get('name')
     email = data.get('email')
     password = data.get('password')
+    phone = data.get('phone')
 
     if not user_type or not name or not email or not password:
         return jsonify({'message': 'Missing required fields'}), 400
 
     if user_type == 'user':
-        phone = data.get('phone')
-        age = data.get('age')
-        address = data.get('address')
-        date_of_birth = data.get('date_of_birth')
-        person_of_contact = data.get('person_of_contact')
-
-        if not phone or not age or not address or not date_of_birth or not person_of_contact:
-            return jsonify({'message': 'Missing required fields for user'}), 400
-
-        user = auth_service.register_user(name, email, password, phone, age, address, date_of_birth, person_of_contact)
+        user = auth_service.register_user(name, email, password, phone)
     elif user_type == 'doctor':
         doctor = auth_service.register_doctor(name, email, password)
     else:
         return jsonify({'message': 'Invalid user type'}), 400
 
     return jsonify({'message': 'User created successfully'}), 201
+
+@auth_bp.route('/settings', methods=['PUT'])
+@jwt_required()
+def settings():
+    data = request.json
+    user_id = get_jwt_identity()
+    age = data.get('age')
+    address = data.get('address')
+    date_of_birth = data.get('date_of_birth')
+    person_of_contact = data.get('person_of_contact')
+
+    user_records = auth_service.register_user_records(user_id, age, address, date_of_birth, person_of_contact)
+    return jsonify({'message': 'User records updated successfully'}), 200
+
 
 @auth_bp.route('/signin', methods=['POST'])
 def signin():
