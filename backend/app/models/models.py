@@ -36,7 +36,7 @@ class Doctor(db.Model):
 
 class HealthRecord(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    user_records_id = db.Column(db.Integer, db.ForeignKey('user_records.id'), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     illness = db.Column(db.String(100), nullable=False)
     medication = db.Column(db.String(100), nullable=False)
     medication_instructions = db.Column(db.Text, nullable=False)
@@ -44,10 +44,25 @@ class HealthRecord(db.Model):
     observations = db.Column(db.Text)
     doctor_name = db.Column(db.String(100), nullable=False)
     hospital = db.Column(db.String(100), nullable=False)
+    
+    def serialize(self):
+        return {
+            'id': self.id,
+            'user_id': self.user_id,
+            'illness': self.illness,
+            'medication': self.medication,
+            'medication_instructions': self.medication_instructions,
+            'duration': self.duration,
+            'observations': self.observations,
+            'doctor_name': self.doctor_name,
+            'hospital': self.hospital
+        }
+    
+    
 
 doctor_patient = db.Table('doctor_patient',
     db.Column('doctor_id', db.Integer, db.ForeignKey('doctor.id'), primary_key=True),
-    db.Column('user_records_id', db.Integer, db.ForeignKey('user_records.id'), primary_key=True)
+    db.Column('user_id', db.Integer, db.ForeignKey('user_records.id'), primary_key=True)
 )
 class Conversation(db.Model):
     id = db.Column(db.Integer, primary_key=True)
