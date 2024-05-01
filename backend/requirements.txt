@@ -6,3 +6,4 @@ flask_sqlalchemy=3.1.1
 pgvector=0.2.5
 psycopg2
 Flask-Migrate
+pip install spacy

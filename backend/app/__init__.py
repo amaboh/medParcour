@@ -7,6 +7,8 @@ from app.models import db
 from app.models import User, Doctor, HealthRecord, Conversation, ConversationVector, HealthRecordVector
 from app.routes.auth import auth_bp
 from app.routes.health_record import health_record_bp
+from app.routes.doctor import doctor_bp
+
 
 def create_app():
     app = Flask(__name__)
@@ -33,5 +35,6 @@ def create_app():
     # Register blueprints
     app.register_blueprint(auth_bp)
     app.register_blueprint(health_record_bp)
+    app.register_blueprint(doctor_bp)
     
     return app
