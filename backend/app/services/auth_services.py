@@ -50,15 +50,17 @@ class AuthService:
         return None
 
     def get_user_details(self, user):
+        user_records = UserRecords.query.filter_by(user_id=user.id).first()
         return {
             'id': user.id,
             'name': user.name,
             'email': user.email,
             'phone': user.phone,
-            'age': user.age,
-            'address': user.address,
-            'date_of_birth': user.date_of_birth.strftime('%Y-%m-%d'),
-            'person_of_contact': user.person_of_contact
+            'age': user_records.age if user_records else None,
+            'address': user_records.address if user_records else None,
+            'date_of_birth': user_records.date_of_birth.strftime('%Y-%m-%d') if user_records and user_records.date_of_birth else None,
+            'person_of_contact': user_records.person_of_contact if user_records else None,
+            'doctors': [doctor.name for doctor in user_records.doctors] if user_records else []
         }
 
     def get_doctor_details(self, doctor):
