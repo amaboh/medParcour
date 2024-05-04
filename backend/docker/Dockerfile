@@ -1,5 +1,4 @@
 FROM apache/airflow:2.2.3
-
 ENV AIRFLOW_HOME=/opt/airflow
 USER root
 
@@ -10,16 +9,15 @@ RUN apt-get update -qq && apt-get install -qqq \
     gcc \
     g++
 
-    
 # Copy the required code files into the container
-COPY backend/app /opt/airflow/app
-COPY backend/config /opt/airflow/config
-COPY requirements.txt /opt/airflow/requirements.txt
+COPY ../app /opt/airflow/app
+COPY ../requirements.txt /opt/airflow/requirements.txt
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r /opt/airflow/requirements.txt
 
 SHELL ["/bin/bash", "-o", "pipefail", "-e", "-u", "-x", "-c"]
+
 WORKDIR $AIRFLOW_HOME
 
 COPY scripts scripts

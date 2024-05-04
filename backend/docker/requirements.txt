@@ -1,0 +1,14 @@
+flask
+flask_sqlalchemy
+pgvector
+apache-airflow 
+werkzeug
+flask_jwt_extended
+python-dotenv
+google-api-python-client
+google
+twilio
+google-cloud-aiplatform
+langchain
+flask_sock
+spacy

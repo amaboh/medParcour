@@ -1,10 +1,8 @@
-import sys
-sys.path.append('/Volumes/AM/Desktop/Projects/medParcour/backend')
 
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from backend.app.services.conversation_service import ConversationService
+from app.services.conversation_service import ConversationService
 
 default_args = {
     'owner': 'airflow',

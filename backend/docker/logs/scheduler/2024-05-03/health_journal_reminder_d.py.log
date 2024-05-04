@@ -274,3 +274,913 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'backend'
 [2024-05-03T21:58:10.493+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
 [2024-05-03T21:58:10.610+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.139 seconds
+[2024-05-03T23:10:58.671+0000] {processor.py:153} INFO - Started process (PID=190) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:10:58.675+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:10:58.678+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:10:58.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:10:58.727+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:10:58.724+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 7, in <module>
+    from backend.app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'backend'
+[2024-05-03T23:10:58.728+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:10:58.978+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.309 seconds
+[2024-05-03T23:11:29.365+0000] {processor.py:153} INFO - Started process (PID=210) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:11:29.368+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:11:29.369+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:11:29.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:11:29.385+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:11:29.382+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 7, in <module>
+    from backend.app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'backend'
+[2024-05-03T23:11:29.386+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:11:29.479+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.117 seconds
+[2024-05-03T23:12:00.001+0000] {processor.py:153} INFO - Started process (PID=215) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:12:00.004+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:12:00.005+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:12:00.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:12:00.018+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:12:00.016+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 7, in <module>
+    from backend.app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'backend'
+[2024-05-03T23:12:00.018+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:12:00.123+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.126 seconds
+[2024-05-03T23:12:30.806+0000] {processor.py:153} INFO - Started process (PID=220) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:12:30.811+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:12:30.812+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:12:30.812+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:12:30.837+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:12:30.834+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 7, in <module>
+    from backend.app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'backend'
+[2024-05-03T23:12:30.838+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:12:30.932+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.130 seconds
+[2024-05-03T23:13:01.358+0000] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:01.361+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:13:01.362+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:01.362+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:01.376+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:01.374+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 7, in <module>
+    from backend.app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'backend'
+[2024-05-03T23:13:01.376+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:01.475+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.120 seconds
+[2024-05-03T23:13:31.901+0000] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:31.905+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:13:31.906+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:31.906+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:31.926+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:31.923+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 7, in <module>
+    from backend.app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'backend'
+[2024-05-03T23:13:31.927+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:32.019+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.129 seconds
+[2024-05-03T23:13:51.401+0000] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:51.408+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:13:51.410+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:51.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:51.448+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:51.444+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 6, in <module>
+    from backend.app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'backend'
+[2024-05-03T23:13:51.452+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:51.621+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.229 seconds
+[2024-05-03T23:13:54.477+0000] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:54.480+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:13:54.483+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:54.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:54.533+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:54.529+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from backend.app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'backend'
+[2024-05-03T23:13:54.535+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:54.653+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.181 seconds
+[2024-05-03T23:13:59.595+0000] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:59.645+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:13:59.647+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:59.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:59.700+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:13:59.698+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:13:59.702+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:13:59.796+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.206 seconds
+[2024-05-03T23:14:02.792+0000] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:14:02.793+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:14:02.794+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:14:02.794+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:14:02.817+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:14:02.814+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:14:02.819+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:14:02.916+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.128 seconds
+[2024-05-03T23:14:33.291+0000] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:14:33.294+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:14:33.297+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:14:33.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:14:33.326+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:14:33.322+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:14:33.329+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:14:33.483+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.196 seconds
+[2024-05-03T23:15:04.083+0000] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:15:04.087+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:15:04.088+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:15:04.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:15:04.108+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:15:04.105+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:15:04.109+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:15:04.204+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.132 seconds
+[2024-05-03T23:15:34.834+0000] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:15:34.838+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:15:34.840+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:15:34.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:15:34.894+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:15:34.885+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:15:34.897+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:15:35.158+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.333 seconds
+[2024-05-03T23:16:05.826+0000] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:16:05.830+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:16:05.832+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:16:05.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:16:05.855+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:16:05.853+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:16:05.856+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:16:05.963+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.141 seconds
+[2024-05-03T23:16:36.246+0000] {processor.py:153} INFO - Started process (PID=275) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:16:36.249+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:16:36.250+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:16:36.249+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:16:36.279+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:16:36.276+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:16:36.280+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:16:36.378+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.137 seconds
+[2024-05-03T23:17:06.866+0000] {processor.py:153} INFO - Started process (PID=280) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:17:06.867+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:17:06.868+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:17:06.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:17:06.903+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:17:06.900+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:17:06.904+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:17:06.991+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.129 seconds
+[2024-05-03T23:17:37.528+0000] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:17:37.530+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:17:37.532+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:17:37.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:17:37.550+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:17:37.547+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:17:37.551+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:17:37.642+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.121 seconds
+[2024-05-03T23:18:08.129+0000] {processor.py:153} INFO - Started process (PID=290) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:18:08.133+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:18:08.135+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:18:08.135+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:18:08.163+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:18:08.161+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:18:08.164+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:18:08.287+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.165 seconds
+[2024-05-03T23:18:38.889+0000] {processor.py:153} INFO - Started process (PID=295) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:18:38.908+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:18:38.914+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:18:38.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:18:39.010+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:18:38.997+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:18:39.019+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:18:39.657+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.817 seconds
+[2024-05-03T23:19:34.949+0000] {processor.py:153} INFO - Started process (PID=190) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:19:34.956+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:19:34.962+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:19:34.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:19:35.066+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:19:35.041+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:19:35.071+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:19:36.312+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 1.378 seconds
+[2024-05-03T23:20:06.833+0000] {processor.py:153} INFO - Started process (PID=210) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:20:06.837+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:20:06.840+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:20:06.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:20:06.871+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:20:06.868+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:20:06.872+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:20:07.015+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.187 seconds
+[2024-05-03T23:20:33.780+0000] {processor.py:153} INFO - Started process (PID=215) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:20:33.784+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:20:33.786+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:20:33.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:20:33.835+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:20:33.831+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from .app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:20:33.836+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:20:33.987+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.223 seconds
+[2024-05-03T23:20:34.795+0000] {processor.py:153} INFO - Started process (PID=220) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:20:34.801+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:20:34.804+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:20:34.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:20:34.846+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:20:34.844+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:20:34.848+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:20:34.968+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.179 seconds
+[2024-05-03T23:21:05.467+0000] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:21:05.470+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:21:05.471+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:21:05.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:21:05.490+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:21:05.487+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:21:05.492+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:21:05.625+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.162 seconds
+[2024-05-03T23:21:36.303+0000] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:21:36.307+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:21:36.308+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:21:36.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:21:36.344+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:21:36.341+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:21:36.345+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:21:36.485+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.187 seconds
+[2024-05-03T23:22:07.109+0000] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:22:07.113+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:22:07.114+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:22:07.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:22:07.135+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:22:07.133+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:22:07.136+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:22:07.237+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.137 seconds
+[2024-05-03T23:22:26.530+0000] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:22:26.534+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:22:26.536+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:22:26.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:22:26.598+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:22:26.587+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:22:26.600+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:22:26.738+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.214 seconds
+[2024-05-03T23:22:56.856+0000] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:22:56.859+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:22:56.860+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:22:56.860+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:22:56.878+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:22:56.875+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:22:56.879+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:22:56.987+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.141 seconds
+[2024-05-03T23:23:27.808+0000] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:23:27.813+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:23:27.818+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:23:27.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:23:27.838+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:23:27.835+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:23:27.839+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:23:27.934+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.131 seconds
+[2024-05-03T23:23:58.447+0000] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:23:58.449+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:23:58.451+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:23:58.450+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:23:58.464+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:23:58.462+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:23:58.465+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:23:58.564+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.123 seconds
+[2024-05-03T23:24:29.374+0000] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:24:29.378+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:24:29.379+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:24:29.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:24:29.400+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:24:29.397+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:24:29.401+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:24:29.498+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.130 seconds
+[2024-05-03T23:25:00.012+0000] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:25:00.020+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:25:00.024+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:25:00.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:25:00.038+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:25:00.036+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:25:00.039+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:25:00.134+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.137 seconds
+[2024-05-03T23:25:30.772+0000] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:25:30.777+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:25:30.778+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:25:30.778+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:25:30.794+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:25:30.792+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:25:30.795+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:25:30.906+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.144 seconds
+[2024-05-03T23:26:01.402+0000] {processor.py:153} INFO - Started process (PID=275) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:26:01.404+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:26:01.405+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:26:01.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:26:01.422+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:26:01.419+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:26:01.423+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:26:01.584+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.189 seconds
+[2024-05-03T23:26:31.925+0000] {processor.py:153} INFO - Started process (PID=280) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:26:31.928+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:26:31.930+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:26:31.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:26:31.947+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:26:31.944+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:26:31.948+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:26:32.047+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.127 seconds
+[2024-05-03T23:27:02.547+0000] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:27:02.550+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:27:02.552+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:27:02.552+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:27:02.593+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:27:02.589+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:27:02.595+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:27:02.748+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.208 seconds
+[2024-05-03T23:28:10.849+0000] {processor.py:153} INFO - Started process (PID=190) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:28:10.855+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:28:10.858+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:28:10.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:28:10.900+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:28:10.895+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:28:10.902+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:28:11.340+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.497 seconds
+[2024-05-03T23:28:41.605+0000] {processor.py:153} INFO - Started process (PID=210) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:28:41.608+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:28:41.610+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:28:41.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:28:41.637+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:28:41.632+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:28:41.638+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:28:41.771+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.169 seconds
+[2024-05-03T23:29:12.542+0000] {processor.py:153} INFO - Started process (PID=215) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:29:12.545+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:29:12.547+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:29:12.546+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:29:12.585+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:29:12.582+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from ..app.services.conversation_service import ConversationService
+ImportError: attempted relative import with no known parent package
+[2024-05-03T23:29:12.587+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:29:12.725+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.189 seconds
+[2024-05-03T23:29:35.964+0000] {processor.py:153} INFO - Started process (PID=220) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:29:35.969+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:29:35.971+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:29:35.970+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:29:36.008+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:29:36.006+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:29:36.009+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:29:36.144+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.186 seconds
+[2024-05-03T23:30:06.735+0000] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:30:06.740+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:30:06.741+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:30:06.741+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:30:06.760+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:30:06.758+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:30:06.761+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:30:06.859+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.130 seconds
+[2024-05-03T23:30:37.314+0000] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:30:37.318+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:30:37.319+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:30:37.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:30:37.344+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:30:37.337+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:30:37.345+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:30:37.448+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.139 seconds
+[2024-05-03T23:31:07.941+0000] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:31:07.945+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:31:07.947+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:31:07.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:31:07.983+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:31:07.980+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:31:07.984+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:31:08.119+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.184 seconds
+[2024-05-03T23:31:39.002+0000] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:31:39.005+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:31:39.006+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:31:39.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:31:39.022+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:31:39.020+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:31:39.022+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:31:39.138+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.140 seconds
+[2024-05-03T23:32:09.619+0000] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:32:09.622+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:32:09.624+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:32:09.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:32:09.642+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:32:09.640+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:32:09.643+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:32:09.730+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.116 seconds
+[2024-05-03T23:32:40.386+0000] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:32:40.483+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:32:40.529+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:32:40.528+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:32:40.558+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:32:40.555+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:32:40.559+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:32:40.674+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.294 seconds
+[2024-05-03T23:33:11.224+0000] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:33:11.227+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:33:11.228+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:33:11.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:33:11.241+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:33:11.239+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:33:11.243+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:33:11.340+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.123 seconds
+[2024-05-03T23:33:41.837+0000] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:33:41.840+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:33:41.845+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:33:41.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:33:41.899+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:33:41.896+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:33:41.901+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:33:42.119+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.248 seconds
+[2024-05-03T23:34:12.493+0000] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:34:12.496+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:34:12.498+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:34:12.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:34:12.521+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:34:12.518+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:34:12.522+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:34:12.624+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.138 seconds
+[2024-05-03T23:34:43.155+0000] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:34:43.159+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:34:43.160+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:34:43.160+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:34:43.179+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:34:43.176+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:34:43.180+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:34:43.286+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.139 seconds
+[2024-05-03T23:40:34.460+0000] {processor.py:153} INFO - Started process (PID=192) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:40:34.464+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:40:34.466+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:40:34.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:40:34.489+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:40:34.484+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:40:34.491+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:40:35.130+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.678 seconds
+[2024-05-03T23:41:06.027+0000] {processor.py:153} INFO - Started process (PID=210) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:41:06.031+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:41:06.033+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:41:06.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:41:06.071+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:41:06.067+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:41:06.072+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:41:06.245+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.234 seconds
+[2024-05-03T23:41:36.637+0000] {processor.py:153} INFO - Started process (PID=215) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:41:36.642+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:41:36.645+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:41:36.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:41:36.685+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:41:36.681+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:41:36.686+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:41:36.829+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.209 seconds
+[2024-05-03T23:42:07.524+0000] {processor.py:153} INFO - Started process (PID=220) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:42:07.527+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:42:07.528+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:42:07.528+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:42:07.548+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:42:07.543+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:42:07.549+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:42:07.676+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.158 seconds
+[2024-05-03T23:42:38.609+0000] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:42:38.614+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:42:38.615+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:42:38.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:42:38.642+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:42:38.635+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:42:38.643+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:42:38.747+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.143 seconds
+[2024-05-03T23:43:09.076+0000] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:43:09.087+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:43:09.090+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:43:09.089+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:43:09.137+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:43:09.134+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:43:09.138+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:43:09.248+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.177 seconds
+[2024-05-03T23:43:39.574+0000] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:43:39.577+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:43:39.578+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:43:39.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:43:39.593+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:43:39.590+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:43:39.594+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:43:39.693+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.122 seconds
+[2024-05-03T23:44:10.616+0000] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:44:10.623+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:44:10.624+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:44:10.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:44:10.736+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:44:10.731+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:44:10.737+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:44:10.930+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.326 seconds
+[2024-05-03T23:44:41.519+0000] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:44:41.528+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:44:41.530+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:44:41.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:44:41.547+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:44:41.544+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:44:41.548+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:44:41.658+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.143 seconds
+[2024-05-03T23:45:12.062+0000] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:45:12.065+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:45:12.065+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:45:12.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:45:12.095+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:45:12.091+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:45:12.096+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:45:12.185+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.126 seconds
+[2024-05-03T23:45:42.762+0000] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:45:42.764+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:45:42.765+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:45:42.765+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:45:42.779+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:45:42.777+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:45:42.780+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:45:42.886+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.130 seconds
+[2024-05-03T23:46:13.234+0000] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:46:13.244+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:46:13.249+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:46:13.248+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:46:13.271+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:46:13.268+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:46:13.273+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:46:13.367+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.138 seconds
+[2024-05-03T23:46:44.165+0000] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:46:44.188+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:46:44.190+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:46:44.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:46:44.247+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:46:44.234+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:46:44.252+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:46:44.657+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.515 seconds
+[2024-05-03T23:47:15.423+0000] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:47:15.427+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:47:15.428+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:47:15.428+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:47:15.444+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:47:15.442+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:47:15.445+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:47:15.539+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.120 seconds
+[2024-05-03T23:47:45.878+0000] {processor.py:153} INFO - Started process (PID=275) to work on /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:47:45.883+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/health_journal_reminder_d.py for tasks to queue
+[2024-05-03T23:47:45.886+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:47:45.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:47:45.914+0000] {logging_mixin.py:137} INFO - [2024-05-03T23:47:45.911+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/health_journal_reminder_d.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/health_journal_reminder_d.py", line 5, in <module>
+    from app.services.conversation_service import ConversationService
+ModuleNotFoundError: No module named 'app'
+[2024-05-03T23:47:45.915+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/health_journal_reminder_d.py
+[2024-05-03T23:47:46.007+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/health_journal_reminder_d.py took 0.132 seconds
